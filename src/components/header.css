@@ -1,0 +1,55 @@
+.icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.up {
+  transform: translateY(-100%);
+}
+
+.down {
+  transform: translateY(100%);
+}
+.day{
+  animation: t 0.3s ease forwards;
+  visibility: hidden;
+}
+@keyframes t {
+  0% {
+    transform: translateY(180px);
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+.header.sticky-header {
+  position: fixed;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  top: 0;
+  animation: stickyHeader 0.3s ease forwards;
+}
+.header.nonsticky-header {
+  position: fixed;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  top: -10;
+  animation: stickyHeader 0.3s ease reverse;
+}
+
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
