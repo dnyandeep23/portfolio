@@ -107,7 +107,7 @@ useEffect(() => {
                   enable: true,
                   area: 200,
                 },
-                value: 200,
+                value: 80,
               },
               opacity: {
                 value: 0.7,
