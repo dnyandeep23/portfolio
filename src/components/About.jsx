@@ -4,9 +4,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-  import { ToastContainer, toast } from "react-toastify";
-  
-  import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
+
+
+import "react-toastify/dist/ReactToastify.css";
 function About() {
   const email = "dnyandeepgaonkar23@gmail.com";
   const copyEmail = () => {
@@ -23,32 +24,31 @@ function About() {
           progress: undefined,
           theme: "colored",
         });
-      
-       // Reset success message after 2 seconds
+
+        // Reset success message after 2 seconds
       })
       .catch((err) => {
         console.error("Error copying text to clipboard:", err);
-        
+
         // Reset error message after 2 seconds
       });
   };
 
   const handleDownload = () => {
     // Assuming 'sample.pdf' is the name of your PDF file
-    const pdfUrl =
-      "https://dnyandeep-gaonkar-portfolio.onrender.com/Resume.pdf";
-    
+    const pdfUrl = "/Dnyandeep Gaonkar Resume.pdf";
+
     // Create a link element
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = 'Dnyandeep Gaonkar Resume.pdf'; // You can change the downloaded file name here
-    
+    link.download = "Dnyandeep Gaonkar Resume.pdf"; // You can change the downloaded file name here
+
     // Append the link to the body
     document.body.appendChild(link);
-    
+
     // Trigger the click event to start the download
     link.click();
-    
+
     // Remove the link from the body
     document.body.removeChild(link);
   };
@@ -138,11 +138,7 @@ function About() {
           </div>
           <div className="flex justify-end my-6 w-[100%] md:w-[85%]">
             <button className="self-end " onClick={handleDownload}>
-              <div
-               
-               
-                class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500"
-              >
+              <div class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
                 <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-yellow-600 via-orange-600 to-pink-700"></span>
                 <span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-amber-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
                 <span class="relative text-white">Download Resume</span>

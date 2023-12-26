@@ -88,7 +88,7 @@ function Skill() {
           <SkillContainer
             image={nodelogo}
             text="NodeJS"
-            percentage="85%"
+            percentage="80%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -106,7 +106,7 @@ function Skill() {
           <SkillContainer
             image={express}
             text="Express"
-            percentage="85%"
+            percentage="80%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
