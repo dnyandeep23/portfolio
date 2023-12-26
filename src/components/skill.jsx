@@ -42,7 +42,7 @@ function Skill() {
           <SkillContainer
             image={htmllogo}
             text="HTML"
-            percentage="90%"
+            percentage="95%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -61,7 +61,7 @@ function Skill() {
           <SkillContainer
             image={csslogo}
             text="CSS"
-            percentage="90%"
+            percentage="95%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -70,7 +70,7 @@ function Skill() {
           <SkillContainer
             image={tailwindlogo}
             text="Tailwind CSS"
-            percentage="90%"
+            percentage="98%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -79,7 +79,7 @@ function Skill() {
           <SkillContainer
             image={reactlogo}
             text="REACTJS"
-            percentage="90%"
+            percentage="95%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -88,7 +88,7 @@ function Skill() {
           <SkillContainer
             image={nodelogo}
             text="NodeJS"
-            percentage="90%"
+            percentage="85%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -106,7 +106,7 @@ function Skill() {
           <SkillContainer
             image={express}
             text="Express"
-            percentage="90%"
+            percentage="85%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -115,7 +115,7 @@ function Skill() {
           <SkillContainer
             image={flutterlogo}
             text="Flutter"
-            percentage="90%"
+            percentage="98%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -124,7 +124,7 @@ function Skill() {
           <SkillContainer
             image={androidlogo}
             text="Android"
-            percentage="90%"
+            percentage="95%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -133,7 +133,7 @@ function Skill() {
           <SkillContainer
             image={firebase}
             text="Firebase"
-            percentage="90%"
+            percentage="98%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -142,7 +142,7 @@ function Skill() {
           <SkillContainer
             image={bootstraplogo}
             text="Boot-Strap"
-            percentage="90%"
+            percentage="100%"
             shadow="shadow-cyan-500"
           />
         </Tilt>
@@ -151,7 +151,7 @@ function Skill() {
           <SkillContainer
             image={figmalogo}
             text="Figma"
-            percentage="90%"
+            percentage="95%"
             shadow="shadow-cyan-500"
           />
         </Tilt>

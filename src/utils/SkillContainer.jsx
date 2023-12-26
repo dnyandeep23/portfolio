@@ -10,7 +10,7 @@ function SkillContainer({ image, text, percentage ,shadow }) {
           <img src={image} alt="" className="w-full" />
         </div>
 
-        <div className="absolute bg-black bg-opacity-0 h-full w-full top-0 left-0 flex justify-center items-center flex-col hover:bg-opacity-80 translate-y-40 hover:translate-y-0 transition-all ease-in text-white font-courier px-8">
+        <div className="absolute bg-black bg-opacity-0 h-full w-full top-0 left-0 flex justify-center items-center flex-col hover:bg-opacity-80 translate-y-44 xl:translate-y-40  hover:translate-y-0 transition-all ease-in text-white font-courier px-8">
           <div className="flex text-2xl justify-center items-center mx-auto tracking-wide mb-6">
             {text}
           </div>
