@@ -333,7 +333,7 @@ function Contact() {
             <button class="m-4 p-1 rounded-lg from-lime-400 via-lime-500 to-lime-400 bg-gradient-to-r">
               <a href="https://wa.me/+918097228253">
                 <span class=" md:w-[15rem] px-[3rem] py-6 font-semibold rounded-md bg-slate-700 hover:bg-transparent text-white transition flex justify-between items-center">
-                  <FaWhatsapp size={30} /> <p>WhatsApp No</p>
+                  <FaWhatsapp size={30} /> <p>Whats App</p>
                 </span>
               </a>
             </button>

@@ -17,7 +17,7 @@ function projectElement({title,desc,link,images}) {
         <p className="mb-3 font-normal text-gray-400 dark:text-slate-200">
           {desc}
         </p>
-        <div className="flex justify-end">
+        <div className="flex justify-end items-end">
           <a
             href={link}
             className="inline-flex items-center  px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-400 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"

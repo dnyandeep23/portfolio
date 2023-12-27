@@ -37,9 +37,9 @@ function Education() {
               <h1 className="text-2xl font-courier font-bold">
                 Secondary Education
               </h1>
-              <p className="text-lg  font-normal">
+              <p className="text-lg  font-sans">
                 I excelled academically at Anuyog Vidyalaya, scoring 81.20% in
-                my 10th standard (SSC) exams in 2019 - 2020.
+                my 10th standard (SSC) exam in 2019 - 2020.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ function Education() {
           className="vertical-timeline-element--education rounded-xl"
           contentStyle={{ background: "rgb(255, 154, 0)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(255, 154, 0)" }}
-          date="2021 - 2022"
+          date="2021 - 2024"
           iconStyle={{ background: "rgb(255, 184, 60)", color: "#fff" }}
           icon={<HiAcademicCap />}
         >
@@ -65,8 +65,8 @@ function Education() {
               <h1 className="text-2xl font-courier font-bold">
                 Diploma in Computer Engineering
               </h1>
-              <p className="text-lg  font-normal">
-                Pursuing Diploma in 3rd year of computer engineering, Government
+              <p className="text-lg  font-sans">
+                Pursuing Diploma in 3rd year of computer engineeringin Government
                 Polytechnic Mumbai Sep 2021 - Dec 2023.
               </p>
             </div>
