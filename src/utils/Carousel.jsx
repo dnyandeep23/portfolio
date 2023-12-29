@@ -4,7 +4,7 @@ import college from "../Assets/college.jpg";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 
-const Carousel = ({images}) => {
+const Carousel = ({ images }) => {
   // const images = [school, college];
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -25,9 +25,9 @@ const Carousel = ({images}) => {
   }, [currentImage]);
 
   return (
-    <div className="w-full max-w-2xl mx-auto my-8 relative overflow-hidden">
+    <div className="w-full max-w-2xl mx-auto my-8 relative overflow-hidden ">
       <div
-        className="flex transition-transform ease-in-out duration-500 rounded-xl"
+        className="flex transition-transform ease-in-out duration-500 rounded-xl "
         style={{ transform: `translateX(-${currentImage * 100}%)` }}
       >
         {images.map((image, index) => (
@@ -35,7 +35,7 @@ const Carousel = ({images}) => {
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full h-auto rounded-xl"
+            className="w-full xl:h-52 h-auto object-cover rounded-xl"
           />
         ))}
       </div>
@@ -44,7 +44,7 @@ const Carousel = ({images}) => {
           onClick={prevImage}
           className="text-white opacity-40 hover:opacity-100 text-xl focus:outline-none"
         >
-          <GrFormPrevious size={35}/> {/* Left arrow */}
+          <GrFormPrevious size={35} /> {/* Left arrow */}
         </button>
       </div>
       <div className="absolute top-1/2 right-0 transform -translate-y-1/2 cursor-pointer">
