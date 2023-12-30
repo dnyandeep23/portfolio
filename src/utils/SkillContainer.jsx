@@ -4,7 +4,7 @@ function SkillContainer({ image, text, percentage ,shadow }) {
   return (
     <div className="relative group">
       <div
-        className={`container bg-slate-400 bg-opacity-25 mx-auto sm:w-52 max-w-sm md:w-80 lg:w-80 xl:w-80 h-60 sm:h-30 md:h-30 lg:h-52 xl:h-52 flex items-center justify-center rounded-xl text-xl font-courier font-bold overflow-hidden shadow-xl ${shadow} relative`}
+        className={`container bg-slate-400 bg-opacity-25 mx-auto sm:w-52 max-w-sm md:w-80 lg:w-80 xl:w-80 h-60 sm:h-30 md:h-30 lg:h-52 xl:h-52 flex items-center justify-center rounded-xl text-xl font-courier font-bold overflow-hidden dark:shadow-xl dark:shadow-cyan-500 shadow-lg shadow-gray-700 relative`}
       >
         <div className="w-44 h-12 flex items-center justify-center p-6">
           <img src={image} alt="" className="w-full" />

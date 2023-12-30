@@ -136,7 +136,7 @@ useEffect(() => {
             </p>
           </div>
           <div className="flex-row md:flex-col space-y-5 text-xl md:text-4xl xl:text-4xl text-gray-600 dark:text-slate-300 mt-8 md:mt-24">
-            <p className="">And I'm Looking for</p>
+            {/* <p className="">And I'm Looking for</p> */}
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
